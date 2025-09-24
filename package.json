@@ -20,12 +20,15 @@
   },
   "homepage": "https://github.com/E-techy/SoulSync_VoiceMode#readme",
   "dependencies": {
+    "@google/genai": "^1.20.0",
     "dotenv": "^17.2.2",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "wav": "^1.0.2"
   },
   "devDependencies": {
     "@types/express": "^5.0.3",
     "@types/node": "^24.5.2",
+    "@types/wav": "^1.0.4",
     "nodemon": "^3.1.10",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2"

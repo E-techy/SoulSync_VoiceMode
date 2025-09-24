@@ -3,5 +3,5 @@
     "src"
   ],
   "ext": "ts",
-  "exec": "ts-node ./src/app.ts"
+  "exec": " npm run build && ts-node ./src/app.ts"
 }

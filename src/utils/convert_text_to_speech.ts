@@ -154,8 +154,8 @@ async function saveWaveFile(
  */
 async function testTTS() {
   const result = await convertTextToSpeech(
-    process.env.GEMINI_API_KEY || "AIzaSyCFS8oBVDRwMNA0BP1hI8rMN-R-3l8QIiw",
-    "Hello! This is a test message from Gemini TTS."
+    process.env.GEMINI_API_KEY || "",
+    "kya kar rhi ho meenakshi"
   );
 
   if (result.success) {
